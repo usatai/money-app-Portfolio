@@ -4,5 +4,5 @@
 Java（Spring Boot）× Next.js を使用した家計簿アプリです。
 
 ## 各リポジトリ
-- フロントエンド：https://github.com/usatai/money-app-Frontend
-- バックエンド：https://github.com/usatai/money-app-Backend
+- フロントエンド：https://github.com/usatai/money-app-frontend
+- バックエンド：https://github.com/usatai/money-app-backend
