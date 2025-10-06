@@ -50,13 +50,8 @@
 
 ## 🚀 インフラ・CI/CD (Infrastructure)
 
-構成図
+### 構成図
 <img width="383" height="418" alt="スクリーンショット 0007-10-06 22 19 40" src="https://github.com/user-attachments/assets/be823a0c-4e52-42aa-91a1-daadb6f7fc22" />
-
-
-[Image of App infrastructure diagram]
-
-*(可能なら構成図を入れるとプロっぽさが格段に上がります)*
 
 自動デプロイの仕組みを構築し、開発体験の向上を意識しました。
 
@@ -66,6 +61,10 @@
 -   **CI/CD:** GitHub Actions
     -   `main`ブランチへのpushをトリガーに、Vercel (FE) と Render (BE) へ自動でデプロイが実行されます。
 -   **今後の展望:** ユーザー増加を想定し、さらなるスケーラビリティと可用性を求め、AWS (ECS, API Gateway, RDS) への移行を検討しています。
+
+### 今後のAWSでの構成図
+<img width="388" height="613" alt="スクリーンショット 0007-10-06 23 46 40" src="https://github.com/user-attachments/assets/2d5b5e28-2f44-4008-ac3c-bb876fb55022" />
+
 
 ---
 
