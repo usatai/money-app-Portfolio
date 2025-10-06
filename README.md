@@ -7,18 +7,15 @@
 日々の収支を手軽に記録し、グラフで可視化することで、直感的な資産管理を実現します。
 使いすぎを防止するアラートメール機能も搭載し、計画的な家計管理をサポートします。
 
-**【重要】デモサイトへのリンクはこちら！**
-> **Demo URL:** [https://your-demo-site.com](https://your-demo-site.com)
+**デモサイトへのリンクはこちら**
+> **Demo URL:** 【https://money-app-frontend-six.vercel.app/】
 >
-> **ID:** test@example.com
-> **Pass:** password123
-> *(デモ用のログイン情報を記載すると、採用担当者がすぐに触れるので親切です)*
-
+> 右上のゲストログインでログインください
 ---
 
 ## ✨ 機能一覧 (Features)
 
-こだわった主要な機能です。
+以下が主要な機能です。
 
 -   **✍️ 収支登録:** シンプルなUIで日々の支出・収入を素早く記録
 -   **🏷️ ラベル管理:** 「食費」「交通費」など自由にカテゴリを分けて管理
@@ -53,6 +50,8 @@
 
 ## 🚀 インフラ・CI/CD (Infrastructure)
 
+構成図
+<img width="383" height="418" alt="スクリーンショット 0007-10-06 22 19 40" src="https://github.com/user-attachments/assets/be823a0c-4e52-42aa-91a1-daadb6f7fc22" />
 
 
 [Image of App infrastructure diagram]
@@ -66,13 +65,11 @@
 -   **Database:** Supabase (PostgreSQL)
 -   **CI/CD:** GitHub Actions
     -   `main`ブランチへのpushをトリガーに、Vercel (FE) と Render (BE) へ自動でデプロイが実行されます。
--   **将来の展望:** さらなるスケーラビリティと可用性を求め、AWS (ECS, API Gateway, RDS) への移行を検討しています。
+-   **今後の展望:** ユーザー増加を想定し、さらなるスケーラビリティと可用性を求め、AWS (ECS, API Gateway, RDS) への移行を検討しています。
 
 ---
 
 ## 💡 こだわった点・学んだこと (Challenges & Learnings)
-
-**【重要】このセクションがあなたの評価を決めます。必ず自分の言葉で具体的に書いてください。**
 
 このアプリ開発を通じて、特に以下の点に注力し、多くの学びを得ました。
 
