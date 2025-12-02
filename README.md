@@ -10,7 +10,7 @@
 **デモサイトへのリンクはこちら**
 ※ここから直接アクセスはできないので、コピー&ペーストでご利用ください。
 
-> **Demo URL:** 【https://money-app-frontend-six.vercel.app/】
+> **Demo URL:** 【https://money-mng.com】
 >
 > アプリケーションの画面右上のゲストログインでログインください
 ---
